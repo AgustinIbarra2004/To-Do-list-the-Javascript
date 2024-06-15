@@ -22,7 +22,7 @@ function agregarTarea() {
     elementoLista.appendChild(textoTarea);
 
     // Crear botón de eliminar
-    let botonEliminar = document.createElement("button");
+    let botonEliminar = document.createElement("span");
     botonEliminar.textContent = "Eliminar";
     // La función que tiene el botón para eliminar el elemento de la lista
     botonEliminar.onclick = function() {
